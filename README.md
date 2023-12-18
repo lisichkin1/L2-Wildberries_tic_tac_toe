@@ -27,3 +27,6 @@
 Игра доступна по ссылке:
 
 Для локального запуска необходимо установить расширение Live Server и через него запустить index.html
+
+###Демо игры
+![2023-12-18_23-21-31](https://github.com/lisichkin1/L2-Wildberries_tic_tac_toe/assets/91782961/3da67ff4-a2a3-41e1-996a-9e98ae44a69c)
