@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tak Toe</title>
+  </head>
+  <body class="matrix">
+    <p class="matrix__winner"></p>
+    <main class="matrix__container"></main>
+    <div class="score_lines">
+      <p class="cross">Крестики:<span class="cross__point">0</span></p>
+      <p class="circle">Нолики:<span class="circle__point">0</span></p>
+      <p class="draw">Ничья:<span class="draw__point">0</span></p>
+    </div>
+    <div class="matrix__option">
+      <div class="matrix__option__item">
+        <label class="matrix__option__item__label active" for="human">2 игрока</label>
+        <input
+          class="matrix__option__item__input matrix__option__item__human"
+          type="radio"
+          name="option"
+          id="human"
+          checked
+        />
+      </div>
+      <div class="matrix__option__item">
+        <label class="matrix__option__item__label" for="AI">Компьютер</label>
+        <input
+          class="matrix__option__item__input matrix__option__item__ai"
+          type="radio"
+          name="option"
+          id="AI"
+        />
+      </div>
+    </div>
+    <button class="matrix__button">Новая игра</button>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
