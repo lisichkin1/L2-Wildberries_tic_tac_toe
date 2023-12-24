@@ -1,4 +1,5 @@
 import { createCircle, createCross } from './utils.js';
+import '../assets/styles/style.css';
 // Создаем матрицу данных
 let matrixData = [
   ['*', '*', '*'],

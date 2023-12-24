@@ -13,7 +13,7 @@
   height: 100vh;
   height: 100svh;
   user-select: none;
-  background: url('./assets/img/pngtree-crease-texture-of-rolled-paper-picture-image_1677438.jpg')
+  background: url('../img/pngtree-crease-texture-of-rolled-paper-picture-image_1677438.jpg')
     center/cover no-repeat;
 }
 .matrix__container {
@@ -32,14 +32,14 @@
 }
 .matrix__container > div:nth-child(2),
 .matrix__container > div:nth-child(8) {
-  background: url('./assets/img/fon6.png') center/cover no-repeat;
+  background: url('../img/fon6.png') center/cover no-repeat;
 }
 .matrix__container > div:nth-child(4),
 .matrix__container > div:nth-child(6) {
-  background: url('./assets/img/fon9.png') center/cover no-repeat;
+  background: url('../img/fon9.png') center/cover no-repeat;
 }
 .matrix__container > div:nth-child(5) {
-  background: url('./assets/img/fon4.png') center/104% no-repeat;
+  background: url('../img/fon4.png') center/104% no-repeat;
 }
 .matrix__container > div:nth-child(4) {
   background-position: 2px center;
