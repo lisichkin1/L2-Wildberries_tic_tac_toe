@@ -24,11 +24,7 @@
 
 ### Запуск
 
-<<<<<<< HEAD
 Игра доступна по [ссылке](https://lisichkin1.github.io/L2-Wildberries_tic_tac_toe/)
-=======
-Игра доступна по ссылке: https://lisichkin1.github.io/L2-Wildberries_tic_tac_toe/
->>>>>>> 9865b239aa5262fd36026e34358243e5376c1206
 
 Для локального запуска выполните следующие шаги:
 
