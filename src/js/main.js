@@ -34,6 +34,7 @@ const drawPoint = document.querySelector('.draw__point');
 const putMark = (cell, row, col) => {
   if (turn < 9 && humanOptions.checked) {
     let turn_char = '0';
+
     if (turn % 2 == 0) {
       turn_char = 'x';
       cell.appendChild(createCross());
@@ -76,6 +77,7 @@ const putMarkAI = (cell, row, col) => {
     }
     turn += 1;
     checkWinConditions();
+    console.log(matrixData);
   }
 };
 
@@ -124,6 +126,7 @@ const newGame = () => {
     }
   });
   turn = 0;
+  winner.innerText = '';
 };
 
 //функция проверки победы
@@ -186,9 +189,9 @@ for (let i = 0; i < matrixData.length; i++) {
       const row = parseInt(this.dataset.row, 10);
       const col = parseInt(this.dataset.col, 10);
 
-      if (humanOptions.checked) {
+      if (humanOptions.checked && matrixData[row][col] == '*') {
         putMark(this, row, col);
-      } else if (aiOptions.checked) {
+      } else if (aiOptions.checked && matrixData[row][col] == '*') {
         putMarkAI(this, row, col);
       }
     });

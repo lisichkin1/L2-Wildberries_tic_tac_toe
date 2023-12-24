@@ -100,6 +100,9 @@
   background-color: rgb(0, 0, 0);
   color: #fff;
 }
+.matrix__winner {
+  height: 16px;
+}
 @media (max-width: 950px) {
   .matrix__container > div {
     --cell-size: min(26vh, 26vw);
